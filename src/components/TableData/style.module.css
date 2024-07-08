@@ -1,0 +1,22 @@
+.normal{
+    font-weight: normal;
+}
+.bold{
+    font-weight: bold;
+}
+.horizontal > p{
+    display: flex;
+    align-items: center;
+    transform: rotate(0deg);
+}
+.vertical > p{
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
